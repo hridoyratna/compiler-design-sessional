@@ -10,17 +10,19 @@ A collection of C++ programs covering core algorithms and concepts practiced dur
 CompilerDesign.workspace
 │
 ├── BinarySearch/
-│   ├── BinarySearch.cbp
-│   └── BinarySearch.cpp
+│   └── main.cpp
 │
 ├── SelectionSort/
-│   ├── SelectionSort.cbp
-│   └── SelectionSort.cpp
+│   ├──  main.cpp
 │
-├── MergeSort/
-│   ├── MergeSort.cbp
-│   └── MergeSort.cpp
+├── MatrixMultiplication/
+│   ├──  main.cpp
 │
+├── CheckComment/
+│   ├──  main.cpp
+|
+|
+|
 └── ... (more projects)
 ```
 
@@ -34,8 +36,9 @@ Each folder is a **standalone Code::Blocks project** with its own `main()` funct
 |---|---------|-------------|
 | 1 | Binary Search | Search element in sorted array using O(log n) approach |
 | 2 | Selection Sort | Sort array by repeatedly selecting the minimum element |
-| 3 | Merge Sort | Divide and conquer based sorting algorithm |
-| 4 | *(more coming)* | ... |
+| 3 | Matrix Multiplication | Multiply two two-dimentional array |
+| 4 | Check Comment | Check the string, it is a single line or multiple line comment |
+| 5 | *(more coming)* | ... |
 
 ---
 
@@ -126,7 +129,8 @@ To run or debug a specific project:
 Management Panel
 ├── BinarySearch   ← (bold = active, will build & debug this one)
 ├── SelectionSort
-└── MergeSort
+├── MartrixMultiplication
+└── CheckComment
 ```
 
 ---
@@ -198,9 +202,9 @@ git clone https://github.com/your-username/Compiler-Design-Sessional.git
 
 ## 👤 Author
 
-**Your Name**
-Department of Computer Science & Engineering
-University Name
+**Hridoy Ratna**,
+Department of Computer Science & Engineering,
+Jamalpur Science & Technology University
 
 ---
 
